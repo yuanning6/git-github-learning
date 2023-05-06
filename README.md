@@ -8,6 +8,9 @@ clone remote repo
 
 
 `git add .` add all files, include untracked files.
+
 `git add index.html` add individual file or folder.
 
-`git commit -m "message" -m "description"` commit with message and descriptionz.
+`git commit -m "message" -m "description"` commit with message and description.
+
+`git push origin main` push to repo main branch.
