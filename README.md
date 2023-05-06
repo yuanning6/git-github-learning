@@ -37,3 +37,15 @@ After merging,
 `git pull origin main` pull changes to local.
 
 `git branch -d [branch name]` delete the branch.
+
+## Undo
+
+`git reset` undo last add.
+
+`git reset HEAD` `git reset HEAD~1` undo last commit.
+
+`git reset [commit hash]` unstage changes after reset.
+
+`git reset --hard [commit hash]` not just unstage, completely remove changes after reset.
+
+`git log` see all commits.
